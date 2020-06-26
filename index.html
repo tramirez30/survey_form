@@ -13,10 +13,17 @@
         display: block;
         padding-bottom: 10px;
     }
-    input,textarea, select{
+    select, textarea{
         display: block;
         width: 100%;
-        padding-bottom: 20px;
+    }
+    input[type='checkbox']{
+        padding:10px;
+        width: 100%;
+    }
+    input[type='text']{
+        padding:10px;
+        width: 100%;
     }
     form {
         background-color: #d3d3d3;
@@ -30,12 +37,11 @@
     input[type=checkbox]:not(old) + label,
     input[type=radio]:not(old) + label, {
         display: inline-block;
-        margin-left: -28px;
-        padding-left: 28px;
+        margin-left: -10px;
+        padding-left: 10px;
     }
     #submit{
         text-align: center;
-        padding-top: 8px;
     }
     
     </style>
