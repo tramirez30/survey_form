@@ -1,55 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    
-    <style>
-    body {
-        font-family: sans-serif;
-        padding-left: 20%;
-        padding-right: 20%;
-    }
-    label {
-        font-size: 18px;
-        display: block;
-        padding-bottom: 10px;
-    }
-    select, textarea{
-        display: block;
-        width: 100%;
-    }
-    input[type='checkbox']{
-        padding:10px;
-        width: 100%;
-    }
-    input[type='text']{
-        padding:10px;
-        width: 100%;
-    }
-    form {
-        background-color: #d3d3d3;
-        padding: 40px 40px;
-    }
-    #button-area{
-        float: left;
-        width: 50%;
-        height: 50%;
-    }
-    input[type=checkbox]:not(old) + label,
-    input[type=radio]:not(old) + label, {
-        display: inline-block;
-        margin-left: -10px;
-        padding-left: 10px;
-    }
-    #submit{
-        text-align: center;
-    }
-    
-    </style>
-    
-    
+<head>  
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/survey.css">  
     <title>Survey Form</title>
 </head>
 <body>
@@ -76,7 +31,7 @@
         <textarea placeholder="Type Here"></textarea><br>
         
         
-        <div id="button-area">
+        <div id="button-area-1">
         <label id="gender-label">Gender</label>
         <input type="radio" name="gender" value="male"> Male<br>
         <input type="radio" name="gender" value="female"> Female<br>
@@ -85,14 +40,16 @@
         
 
         
-        <div id="button-area">
+        <div id=""button-area-2">
         <label id="transportation-label">Transporation</label>
         <input type="checkbox" name="vehicle1" value="Bike">I have a bike<br>
         <input type="checkbox" name="vehicle2" value="Car">I have a car<br>
         <input type="checkbox" name="vehicle3" value="Boat"> I have a boat<br>
         </div>
 
-        <input type="submit" id="submit">
+        <div id="submit-container">
+                <input type="submit" id="submit">
+        </div>
     </form>
 </body>
 </html>

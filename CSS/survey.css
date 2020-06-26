@@ -1,0 +1,54 @@
+body {
+    font-family: sans-serif;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+form {
+    background-color: #d3d3d3;
+    padding: 10px 20px;
+}
+
+label {
+    font-size: 18px;
+    display: block;
+    padding: 10px 0;
+}
+select{
+    padding:10px 10px;
+    width: -webkit-fill-available;
+}
+
+textarea{
+    padding:10px 10px;
+    width: -webkit-fill-available;
+}
+
+input[type='text'], input[type='email'], input[type='number']{
+    padding:10px 10px;
+    width: -webkit-fill-available;
+}
+
+input[type='checkbox']{
+    padding:10px;
+}
+
+#button-area-1{
+    float: left;
+    width: 50%;
+}
+#button-area-2{
+    float: right;
+    width: 50%;
+}
+
+#submit-container {
+  text-align: center;
+  float:
+}
+
+input[type=submit]{
+  width: 100px;
+  padding: 8px 0;
+  margin: 30px 0;
+}
