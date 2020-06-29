@@ -29,12 +29,6 @@ input[type='text'], input[type='email'], input[type='number']{
     width: 100%;
 }
 
-input[type=checkbox]:not(old) + label,
-input[type=radio]:not(old) + label, {
-    display: inline-block;
-    margin-left: -10px;
-    padding-left: 10px;
-}
 
 input[type='checkbox']{
     padding:10px;
